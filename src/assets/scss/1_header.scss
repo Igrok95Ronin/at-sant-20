@@ -1,0 +1,54 @@
+.header {
+    background-image: url("../img/mainFon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        opacity: .7;
+    }
+}
+.header__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    position: relative;
+}
+.header__inner{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.header__title {
+    @include h1Title;
+}
+.header__subTitle {
+    color: #0472b9;
+    font-size: clamp(17px, 4vw, 20px);
+    font-weight: 700;
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        background-color: #0472b9;
+        width: 80px;
+        height: 2px;
+        top: -15px;
+    }
+}
+.header__txt {
+    color: #252525;
+    line-height: 25px;
+}
+.header__btnWrp {
+}
+
+.header__btn {
+    @include btn;
+}
