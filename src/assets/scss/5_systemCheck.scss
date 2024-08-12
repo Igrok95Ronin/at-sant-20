@@ -1,0 +1,38 @@
+.systemCheck {
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    z-index: 1;
+    position: relative;
+}
+.padding0{
+    padding: 0;
+}
+.systemCheck__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.systemCheck__content {
+    padding: 0 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.systemCheck__title {
+    @include h2Title;
+}
+.systemCheck__txt {
+    line-height: 25px;
+}
+.service__btnWrp {
+}
+.service__btn {
+}
+.systemCheck__imgWrp {
+    max-width: 100%;
+    max-height: 100%;
+}
+.systemCheck__img {
+    width: 100%;
+    height: 100%;
+}
