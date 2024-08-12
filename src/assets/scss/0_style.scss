@@ -43,7 +43,7 @@ body{
 
 :root{
     --maxWidth: 1200px;
-    --btnColorFixed: #000;
+    --btnColorFixed: var(--mainColor);
     --mainColor: #00abe6;
 }
 
@@ -53,7 +53,7 @@ body{
     margin: 0;
 }
 @mixin h2Title {
-    font-size: clamp(28px, 5vw, 32px);
+    font-size: clamp(30px, 5vw, 40px);
     font-weight: 600;
     margin: 0;
 }
