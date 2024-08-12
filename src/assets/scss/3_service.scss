@@ -1,6 +1,8 @@
 .service {
     padding: 64px 0 0;
     box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    z-index: 1;
+    position: relative;
 }
 .service__box {
     display: grid;
@@ -11,6 +13,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    padding-bottom: 10px;
 }
 .service__title {
     @include h2Title;
