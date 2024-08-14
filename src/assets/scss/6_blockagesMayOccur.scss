@@ -1,0 +1,36 @@
+.blockagesMayOccur {
+    padding: 120px 0;
+}
+.blockagesMayOccur__box {
+}
+.blockagesMayOccur__title {
+    @include h2Title;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.blockagesMayOccur__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    row-gap: 50px;
+}
+.blockagesMayOccur__inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #dcdcdc;
+    padding: 30px;
+    transition: .3s;
+    &:hover{
+        box-shadow: 0 20px 32px -10px rgba(0, 0, 0, .1);
+    }
+}
+.blockagesMayOccur__imgWrp {
+}
+.blockagesMayOccur__img {
+    width: 61px;
+}
+.blockagesMayOccur__txt {
+    font-weight: 600;
+    font-size: 14px;
+}
