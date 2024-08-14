@@ -31,4 +31,8 @@
 .systemCheck__img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+.systemCheck__content--padding0{
+    padding: 0 50px;
 }

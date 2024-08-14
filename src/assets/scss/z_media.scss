@@ -1,3 +1,48 @@
+@media(max-width: 1440px) {
+    .systemCheck__content {
+        padding: 10px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .blockagesMayOccur__wrapper {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width: 767px) {
+    .header__box,
+    .emergencySituation__box,
+    .service__box,
+    .systemCheck__box,
+    .blockagesMayOccur__wrapper {
+        grid-template-columns: 1fr;
+    }
+    .emergencySituation,
+    .preventiveMeasures,
+    .blockagesMayOccur {
+        padding: 50px 0;
+    }
+    .header__inner {
+        height: 60vh;
+    }
+    .header {
+        background-position-x: center;
+    }
+    .service__imgWrp {
+        text-align: center;
+    }
+    .systemCheck__content {
+        padding: 50px 10px 0;
+    }
+    .blockagesMayOccur__wrapper{
+        gap: 20px;
+    }
+    .systemCheck__content--padding50{
+        padding: 30px 10px 50px;
+    }
+}
+
 @media(max-width: 500px) {
     .btnFixedD {
         display: none;
